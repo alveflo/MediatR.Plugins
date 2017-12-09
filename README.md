@@ -1,11 +1,11 @@
 # MediatR.Plugins
-Dead simple, handy plugins for MediatR
+Super simple, handy plugins for [MediatR](https://github.com/jbogard/MediatR).
 
 ## Behaviors
 - Logging behavior
-  - Log4net
-  - Serilog
-- Validation behavior (*utilizing FluentValidation*)
+  - [Log4net](https://logging.apache.org/log4net/)
+  - [Serilog](https://serilog.net)
+- Validation behavior (with [FluentValidation](https://github.com/JeremySkinner/FluentValidation))
 - Caching behavior
 
 ## Logging
