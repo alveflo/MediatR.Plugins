@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Logging, Caching and FluentValidation middlewares for MediatR</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/alveflo/MediatR.Plugins</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/alveflo/MediatR.Plugins</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Mediatr, Mediator</PackageTags>
+    <PackageLicenseUrl>https://github.com/alveflo/MediatR.Plugins/blob/master/LICENSE</PackageLicenseUrl>
+    <Copyright />
   </PropertyGroup>
 
   <ItemGroup>
