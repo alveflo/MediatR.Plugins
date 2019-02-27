@@ -1,6 +1,12 @@
 # MediatR.Plugins
+[![Build status](https://ci.appveyor.com/api/projects/status/wiaw36sbfycn9jw6?svg=true)](https://ci.appveyor.com/project/alveflo/mediatr-plugins)
+
 Super simple, handy plugins for [MediatR](https://github.com/jbogard/MediatR).
 
+## Install
+```
+PM> Install-Package MediatR.Plugins
+```
 ## Behaviors
 - Logging behavior
   - [Log4net](https://logging.apache.org/log4net/)
