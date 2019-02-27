@@ -13,7 +13,7 @@ before_build:
 deploy:
   provider: NuGet
   api_key:
-    secure: $(NUGET_TOKEN)
+    secure: SZKU6CWMvIkMnkBBW2pH27cyloHzca15AJ85mjk07gmUjhDU1Y33dlccSnfVQNJL
   skip_symbols: false
   artifact: /.*\.nupkg/
   on:
