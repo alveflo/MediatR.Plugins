@@ -8,6 +8,7 @@ branches:
 before_build:
   - cmd: dotnet --version
   - cmd: dotnet restore ./MediatR.Plugins/MediatR.Plugins.csproj --verbosity m
+  - cmd: dotnet test
 
 deploy:
   provider: NuGet
