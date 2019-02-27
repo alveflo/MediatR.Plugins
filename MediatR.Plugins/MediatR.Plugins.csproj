@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -9,6 +9,7 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>Mediatr, Mediator</PackageTags>
     <PackageLicenseUrl>https://github.com/alveflo/MediatR.Plugins/blob/master/LICENSE</PackageLicenseUrl>
+    <Version>0.0.1</Version>
     <Copyright />
   </PropertyGroup>
 
