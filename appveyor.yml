@@ -7,7 +7,8 @@ branches:
 
 before_build:
   - cmd: dotnet --version
-  - cmd: dotnet restore ./src/src.csproj --verbosity m
+  - cmd: dotnet restore ./MediatR.Plugins/MediatR.Plugins.csproj --verbosity m
+  - cmd: dotnet test
 
 deploy:
   provider: NuGet
@@ -15,3 +16,6 @@ deploy:
     secure: $(NUGET_TOKEN)
   skip_symbols: false
   artifact: /.*\.nupkg/
+  on:
+    branch: master                 # release from master branch only
+    APPVEYOR_REPO_TAG: true        # deploy on tag push only
