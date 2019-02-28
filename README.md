@@ -20,7 +20,7 @@ The logging behavior will log:
   - If an exception was thrown in handler
 - Debug severity:
   - Pre processing: `Handling {typeof(TRequest)}, traceId: {GUID} {timestamp}`
-  - Post processing: `Handling {typeof(TRequest)}, traceId: {GUID} {timestamp}`
+  - Post processing: `Handled {typeof(TRequest)}, traceId: {GUID} {timestamp}`
 
 ### Log4net
 #### Setup
